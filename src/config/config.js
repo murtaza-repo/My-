@@ -1,50 +1,46 @@
+import collegifyImg from '../img/Collegify.png';
+import todoApp from '../img/todoApp.png';
+import comeNplay from '../img/comeNplay.png';
+import recipeBook from '../img/recipeBook.png';
+import burgerBuilder from '../img/burgerBuilder.png';
+import como from '../img/como.png';
+
 export const configuration = {
     Navbar:{
-        NavbarTitle:'Valeed Anjum',
+        NavbarTitle:'MK',
         NabarOptions:['portfolio','about','contact']
     },
     Masthead:{
-        MastheadTitle:'Valeed Anjum Siddiqui',
-        Labels:['seo expert','react developer','freelancer']
+        MastheadTitle:'Murtaza Khachrodwala',
+        Labels:['An I.T. Professional','A FullStack Developer','A Data Analyst', 'A Python Developer']
     },
     Portfolio:{
         PortfolioTitle:'my work',
         PortfolioItems:[
-            {image:'img/portfolio/cabin.png',name:'cabin',des:'des cabin'},
-            {image:'img/portfolio/cake.png',name:'cake',des:'des cake'},
-            {image:'img/portfolio/circus.png',name:'circus',des:'des circus'},
-            {image:'img/portfolio/game.png',name:'game',des:'des game'},
-            {image:'img/portfolio/safe.png',name:'safe',des:'des safe'},
-            {image:'img/portfolio/submarine.png',name:'submaribe',des:'des submaribe'},
+            {image:collegifyImg,name:'Collegify App',des:'des cabin'},
+            {image:todoApp,name:'Todo App',des:'des cake'},
+            {image:comeNplay,name:'Come-N-play App',des:'des circus'},
+            {image:recipeBook,name:'RecipeBook App',des:'des game'},
+            {image:burgerBuilder,name:'BurgerBuilder App',des:'des safe'},
+            {image:como,name:'CoMo App',des:'des submaribe'},
         ]
     },
     About:{
-        AboutTitle:'About ok',
-        AboutMe1Sec:`Freelancer is a free bootstrap theme created by Start Bootstrap. 
-        The download includes the complete source files including HTML, CSS, and JavaScript as 
-        well as optional SASS stylesheets for easy customization.`,
+        AboutTitle:'About Me',
+        AboutMe1Sec:`Hi! My name is Murtaza Khachrodwala.`,
         AboutMe2Sec:`You can create your own custom avatar for the masthead, change the icon in the dividers,
         and add your email address to the contact form to make it fully functional!`,
-        ButtonName:'Download !',
+        ButtonName:'Resume',
         ButtonIconFontAwesome:'fas fa-download mr-2',
-        ButtonSite:'https://github.com/ValeedAnjum/yourportfolio'
+        ButtonSite:'https://drive.google.com/file/d/1TnwnY2CeMUVttXSE0atMsd6j_vzjFTFi/view?usp=sharing'
     },
     Footer:{
-        section1:{
-            title:'Location',
-            address1:'Siddiqui House',
-            address2:'Mohalla Gharibabad'
-        },
         section2:{
             title:'Around the Web',
-            facebook:'https://web.facebook.com/valeed.anjum.1',
-            twitter:'https://twitter.com/ValeedAnjum2',
-            dribbble:'https://www.linkedin.com',
-            linkedin:'https://dribbble.com'
-        },
-        section3:{
-            title:'yourportfolio',
-            description:'YOURPORTFOLIO is free to use, MIT licensed theme created by Valeed Anjum.'
+            facebook:'https://www.facebook.com/murtaza.khachrod',
+            twitter:'https://twitter.com/Murtaza_kh53',
+            linkedin:'https://in.linkedin.com/in/murtaza-khachrodwala',
+            github:'https://github.com/murtaza-repo'
         }
     }
 }

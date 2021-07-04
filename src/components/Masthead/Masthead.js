@@ -1,12 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Masthead = ({mastData}) => {
     const {MastheadTitle,Labels} = mastData;
-    let labeles = "";
-    for(let i = 0;i<Labels.length;i++){
-        labeles += Labels[i].toUpperCase() + " - ";
-    }
-    let newLabels = labeles.slice(0,labeles.length-2).toLocaleLowerCase();
     return (
         <header className="masthead bg-primary text-white text-center" id="page-top">
             <div className="container d-flex align-items-center flex-column">
@@ -19,11 +15,9 @@ const Masthead = ({mastData}) => {
                     </div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <p className="masthead-subheading font-weight-light mb-0 text-capitalize">
-                    {
-                        newLabels
-                    }
-                </p>
+                <div className="masthead-subheading font-weight-light mb-0 text-capitalize">
+                    <ReactTypingEffect className="typingeffect" text={Labels} speed={50} eraseDelay={1500} eraseSpeed={50}/>
+                </div>
             </div>
         </header>
     )

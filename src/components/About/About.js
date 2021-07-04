@@ -32,7 +32,8 @@ const About = ({aboutData,id}) => {
                 <div className="text-center mt-4">
                     <a
                         className="btn btn-xl btn-outline-light"
-                        href={ButtonSite}>
+                        href={ButtonSite}
+                        target="_blank" rel="noreferrer">
                         <i className={ButtonIconFontAwesome}></i>
                         {ButtonName}
                     </a>
