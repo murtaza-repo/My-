@@ -4,6 +4,9 @@ import hms from '../img/hms.png';
 import recipeBook from '../img/recipeBook.png';
 import burgerBuilder from '../img/burgerBuilder.png';
 import como from '../img/como.png';
+import rajmachinery from '../img/rajmachinery.png';
+import marioplan from '../img/marioPlan.png';
+import comeNplay from '../img/comeNplay.png';
 
 export const configuration = {
     Navbar:{
@@ -23,6 +26,9 @@ export const configuration = {
             {image:recipeBook,name:'RecipeBook App',des:'An Angular CRUD App which allow users to Create, Read, Update & Delete Recipes and Ingredients required for respective recipes. It also help to create a shopping list with an ease by simply going through recipes.',link:'https://angularrecipebook-a0067.web.app/'},
             {image:burgerBuilder,name:'BurgerBuilder App',des:'Do you have craving for a delicious burger? Check out this Burgerbuilder App that lets you create your own burger with ease before actually ordering it.', link:'https://burger-builder5.web.app/'},
             {image:como,name:'CoMo App',des:'A CoMo (COVID Monitor) App that help users to monitor spread of COVID-19 globally and specifically with different charts and records.', link:'https://comoapp1.web.app/'},
+            {image:rajmachinery,name:'Web Profile',des:'A Raj Machinery is a webprofile created to promote retail business online. Its an effective alternative to traditional visiting cards.', link:'https://rajmachinery.web.app/'},
+            {image:marioplan,name:'CRUD React App',des:'A simple react app created while learning CRUD functionality using React Library. This app also has a feature of realtime notification which notifies updates in the app.', link:'https://marioplan-53.web.app/'},
+            {image:comeNplay,name:'Come-N-Play App',des:'Come-N-Play is a react app that makes use of Youtube Data API to parse videos based on search input parameter. It provides simple video searching interface where user can easily & quickly find videos of there choice neglecting bulky youtube interface.', link:'https://come-n-play.web.app/'}
         ]
     },
     About:{

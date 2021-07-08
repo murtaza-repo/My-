@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.08e792b9.chunk.css",
-    "main.js": "/static/js/main.5ea689b9.chunk.js",
-    "main.js.map": "/static/js/main.5ea689b9.chunk.js.map",
+    "main.js": "/static/js/main.610cf81e.chunk.js",
+    "main.js.map": "/static/js/main.610cf81e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9481bf06.js",
     "runtime-main.js.map": "/static/js/runtime-main.9481bf06.js.map",
     "static/js/2.f4aa0808.chunk.js": "/static/js/2.f4aa0808.chunk.js",
@@ -10,19 +10,22 @@
     "index.html": "/index.html",
     "static/css/main.08e792b9.chunk.css.map": "/static/css/main.08e792b9.chunk.css.map",
     "static/js/2.f4aa0808.chunk.js.LICENSE.txt": "/static/js/2.f4aa0808.chunk.js.LICENSE.txt",
-    "static/media/Collegify.c41aaa6a.png": "/static/media/Collegify.c41aaa6a.png",
-    "static/media/burgerBuilder.15f78838.png": "/static/media/burgerBuilder.15f78838.png",
-    "static/media/como.adfb0622.png": "/static/media/como.adfb0622.png",
+    "static/media/Collegify.c15bd88c.png": "/static/media/Collegify.c15bd88c.png",
+    "static/media/burgerBuilder.4123db46.png": "/static/media/burgerBuilder.4123db46.png",
+    "static/media/comeNplay.10819bc6.png": "/static/media/comeNplay.10819bc6.png",
+    "static/media/como.71193d67.png": "/static/media/como.71193d67.png",
     "static/media/engineer.6b1b3ac4.png": "/static/media/engineer.6b1b3ac4.png",
     "static/media/all.min.css": "/static/media/fa-solid-900.ce9aef17.svg",
-    "static/media/hms.62ed4389.png": "/static/media/hms.62ed4389.png",
-    "static/media/recipeBook.07539905.png": "/static/media/recipeBook.07539905.png",
-    "static/media/todoApp.65f3d375.png": "/static/media/todoApp.65f3d375.png"
+    "static/media/hms.b0a1481b.png": "/static/media/hms.b0a1481b.png",
+    "static/media/marioPlan.54f9246c.png": "/static/media/marioPlan.54f9246c.png",
+    "static/media/rajmachinery.cec3f3dc.png": "/static/media/rajmachinery.cec3f3dc.png",
+    "static/media/recipeBook.c6477b48.png": "/static/media/recipeBook.c6477b48.png",
+    "static/media/todoApp.e2f2c7f2.png": "/static/media/todoApp.e2f2c7f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9481bf06.js",
     "static/js/2.f4aa0808.chunk.js",
     "static/css/main.08e792b9.chunk.css",
-    "static/js/main.5ea689b9.chunk.js"
+    "static/js/main.610cf81e.chunk.js"
   ]
 }
