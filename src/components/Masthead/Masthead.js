@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import engineerImg from '../../img/engineer.png';
 
 const Masthead = ({mastData}) => {
     const {MastheadTitle,Labels} = mastData;
     return (
         <header className="masthead bg-primary text-white text-center" id="page-top">
             <div className="container d-flex align-items-center flex-column">
-                <img className="masthead-avatar mb-5" src="img/avataaars.svg" alt=""/>
+                <img className="masthead-avatar mb-5 mb-lg-3" src={engineerImg} alt=""/>
                 <h1 className="masthead-heading text-uppercase mb-0">{MastheadTitle}</h1>
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>

@@ -5,7 +5,7 @@ import {fadeIn} from 'react-animations';
 const Bounce = styled.div`animation:300ms ${keyframes`${fadeIn}`}`;
 
 const PortfolioModel = ({Payload,hideDetailItem}) => {
-    const {image,name,des} = Payload;
+    const {image,name,des, link} = Payload;
     const hideDetails = () => {
         const body = document.getElementsByTagName('body')[0];
         body.classList.remove('modal-open');
@@ -17,8 +17,7 @@ const PortfolioModel = ({Payload,hideDetailItem}) => {
             className="portfolio-modal modal fade show"
             id="portfolioModal1"
             style={{
-            'display': 'block',
-            'paddingRight': '17px'
+            'display': 'block'
         }}
             aria-modal="true">
             <div className="modal-dialog modal-xl" role="document">
@@ -42,14 +41,17 @@ const PortfolioModel = ({Payload,hideDetailItem}) => {
                                         <div className="divider-custom-line"></div>
                                     </div>
                                     <img className="img-fluid rounded mb-5" src={image} alt=""/>
-                                    <p className="mb-5">
+                                    <p className="mb-3">
                                         {
                                             des
                                         }
                                     </p>
+                                    <p className="mb-5">
+                                        Source: <a href={link} target="_blank" rel="noreferrer">{link}</a>
+                                    </p>
                                     <button className="btn btn-primary" href="#" data-dismiss="modal" onClick={hideDetails}>
                                         <i className="fas fa-times fa-fw"></i>
-                                        Close Window
+                                        Close
                                     </button>
                                 </div>
                             </div>
