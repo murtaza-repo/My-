@@ -4,7 +4,7 @@ import {fadeIn} from 'react-animations';
 
 const Bounce = styled.div`animation:300ms ${keyframes`${fadeIn}`}`;
 
-const PortfolioModel = ({Payload,hideDetailItem}) => {
+const Model = ({Payload,hideDetailItem}) => {
     const {image,name,des, link} = Payload;
     const hideDetails = () => {
         const body = document.getElementsByTagName('body')[0];
@@ -66,4 +66,4 @@ const PortfolioModel = ({Payload,hideDetailItem}) => {
     )
 }
 
-export default PortfolioModel
+export default Model

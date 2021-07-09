@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Masthead from './components/Masthead/Masthead';
 import Portfolio from './components/Portfolio/Portfolio';
+import Activities from './components/Activities/Activities';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -16,6 +17,7 @@ function App() {
       <Navbar navData={configuration.Navbar} />
       <Masthead mastData={configuration.Masthead} />
       <Portfolio portfolioData={configuration.Portfolio}  id={configuration.Navbar.NabarOptions[0]} />
+      <Activities ActivitiesData={configuration.Activities} id={configuration.Navbar.NabarOptions[1]} />
       <About aboutData={configuration.About} id={configuration.Navbar.NabarOptions[2]} />
       <Contact id={configuration.Navbar.NabarOptions[3]} />
       <Footer footerData={configuration.Footer} />

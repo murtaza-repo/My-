@@ -1,12 +1,12 @@
 import React from 'react'
-import PortfolioModel from './PortfolioModel';
+import Model from './PortfolioModel';
 import {connect} from 'react-redux';
 
 const ModelManger = ({ModelName,Payload,hideDetailItem}) => {
     switch (ModelName) {
-        case 'OpenPortfolioModel':
-            return <PortfolioModel Payload={Payload} hideDetailItem={hideDetailItem}/>
-        case 'ClosePortfolioModel':
+        case 'OpenModel':
+            return <Model Payload={Payload} hideDetailItem={hideDetailItem}/>
+        case 'CloseModel':
             return null;
         default:
             return null;
@@ -22,7 +22,7 @@ const mapState = state => {
 
 const mapDispatch = dispatch => {
     return {
-        hideDetailItem:() => dispatch({type:'ClosePortfolioModel'})
+        hideDetailItem:() => dispatch({type:'CloseModel'})
     }
 }
 export default connect(mapState,mapDispatch)(ModelManger);

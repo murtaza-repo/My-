@@ -5,8 +5,8 @@ const intState = {
 
 export const ModelReducer = (state = intState,action) => {
     switch(action.type){
-        case 'OpenPortfolioModel':
-            return {...state,ModelName:'OpenPortfolioModel',ModelPayload:action.payload}
+        case 'OpenModel':
+            return {...state,ModelName:'OpenModel',ModelPayload:action.payload}
         default:
             return {...state,ModelName:null}
     }

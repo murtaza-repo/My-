@@ -1,6 +1,6 @@
-export const openPortfolioModel = ItemData => {
+export const openModel = ItemData => {
     return {
-        type:'OpenPortfolioModel',
+        type:'OpenModel',
         payload:ItemData
     }
 }
