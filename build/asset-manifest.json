@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.08e792b9.chunk.css",
-    "main.js": "/static/js/main.3baa4c9f.chunk.js",
-    "main.js.map": "/static/js/main.3baa4c9f.chunk.js.map",
+    "main.css": "/static/css/main.3b6bb3c4.chunk.css",
+    "main.js": "/static/js/main.ae7f9970.chunk.js",
+    "main.js.map": "/static/js/main.ae7f9970.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9481bf06.js",
     "runtime-main.js.map": "/static/js/runtime-main.9481bf06.js.map",
     "static/js/2.f8151794.chunk.js": "/static/js/2.f8151794.chunk.js",
     "static/js/2.f8151794.chunk.js.map": "/static/js/2.f8151794.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.08e792b9.chunk.css.map": "/static/css/main.08e792b9.chunk.css.map",
+    "static/css/main.3b6bb3c4.chunk.css.map": "/static/css/main.3b6bb3c4.chunk.css.map",
     "static/js/2.f8151794.chunk.js.LICENSE.txt": "/static/js/2.f8151794.chunk.js.LICENSE.txt",
     "static/media/Angular.361170b9.png": "/static/media/Angular.361170b9.png",
     "static/media/Collegify.c15bd88c.png": "/static/media/Collegify.c15bd88c.png",
     "static/media/Java.299c9498.png": "/static/media/Java.299c9498.png",
+    "static/media/freelancer.min.css": "/static/media/Murtaza.40ed4459.png",
     "static/media/NPTEL.aa58602d.jpg": "/static/media/NPTEL.aa58602d.jpg",
     "static/media/ProblemSolving.9703464d.png": "/static/media/ProblemSolving.9703464d.png",
     "static/media/PythonHR.96a83444.png": "/static/media/PythonHR.96a83444.png",
@@ -23,7 +24,6 @@
     "static/media/comeNplay.10819bc6.png": "/static/media/comeNplay.10819bc6.png",
     "static/media/como.71193d67.png": "/static/media/como.71193d67.png",
     "static/media/cpp.7ba4fac2.png": "/static/media/cpp.7ba4fac2.png",
-    "static/media/engineer.6b1b3ac4.png": "/static/media/engineer.6b1b3ac4.png",
     "static/media/all.min.css": "/static/media/fa-solid-900.ce9aef17.svg",
     "static/media/hms.b0a1481b.png": "/static/media/hms.b0a1481b.png",
     "static/media/marioPlan.54f9246c.png": "/static/media/marioPlan.54f9246c.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.9481bf06.js",
     "static/js/2.f8151794.chunk.js",
-    "static/css/main.08e792b9.chunk.css",
-    "static/js/main.3baa4c9f.chunk.js"
+    "static/css/main.3b6bb3c4.chunk.css",
+    "static/js/main.ae7f9970.chunk.js"
   ]
 }

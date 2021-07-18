@@ -20,7 +20,7 @@ const Model = ({Payload,hideDetailItem}) => {
             'display': 'block'
         }}
             aria-modal="true">
-            <div className="modal-dialog modal-xl" role="document">
+            <div className="modal-dialog mt-5 mb-5 modal-xl" role="document">
                 <Bounce>
                 <div className="modal-content">
                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
@@ -46,10 +46,11 @@ const Model = ({Payload,hideDetailItem}) => {
                                             des
                                         }
                                     </p>
-                                    <p className="mb-5">
-                                        Source: <a href={link} target="_blank" rel="noreferrer">{link}</a>
-                                    </p>
-                                    <button className="btn btn-primary" href="#" data-dismiss="modal" onClick={hideDetails}>
+                                    {link && <p className="mb-3">
+                                        <a className="btn btn-success" href={link} target="_blank" rel="noreferrer">Preview <i className="fa fa-sign-out-alt"></i>
+                                        </a>
+                                    </p>}
+                                    <button className="btn btn-danger" href="#" data-dismiss="modal" onClick={hideDetails}>
                                         <i className="fas fa-times fa-fw"></i>
                                         Close
                                     </button>

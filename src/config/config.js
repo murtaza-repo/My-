@@ -50,24 +50,25 @@ export const configuration = {
     Activities:{
         ActivitiesTitle:'Activities & Achievements',
         ActivitiesItems:[
-            {image:problemSolving,name:'Problem Solving',link:'https://www.hackerrank.com/certificates/0046371f1eb2'},
-            {image:Angular,name:'Angular Training',link:'https://drive.google.com/file/d/16PDOBZ15vQurXWxz_YSFWKcOpPN1ja8f/view'},
-            {image:nptel,name:'NPTEL Training', link:'https://nptel.ac.in/content/noc/NOC18/SEM2/Ecertificates/106/noc18-cs34/Course/NPTEL18CS34S113600261810050093.jpg'},
-            {image:python,name:'Python(Basic)',link:'https://www.hackerrank.com/certificates/043944dbe090'},
-            {image:cpp,name:'C & CPP', link:'https://drive.google.com/file/d/17MEntCX1vwoUcJTprkm0S1gCawnVuNaM/view?usp=sharing'},
-            {image:smartIndia,name:'Smart India Hackathon', link:'https://drive.google.com/file/d/1WkbEnsW-pcpifm7wT8jizjQ2ObBJ0l1s/view?usp=sharing'},
-            {image:java,name:'Java', link:'https://drive.google.com/file/d/12qgdVsbVDeIQKCGlwR38GjIEdeKTe4d2/view?usp=sharing'},
-            {image:tcsData,name:'Data Warehouse', link:'https://drive.google.com/file/d/16PZYu7LITuVGC-84uDGVl3m7GNAGHBuj/view?usp=sharing'},
-            {image:react,name:'React Training', link:'https://drive.google.com/file/d/1nhsfaHqL5gKGYMKhvKmyrYVOAlWc2-qb/view?usp=sharing'},
-            {image:flask,name:'Python Flask', link:'https://drive.google.com/file/d/19r0i0xsIhgUBNdxxbz_uos7zMHDrSHOS/view?usp=sharing'},
-            {image:rest,name:'Rest APIs', link:'https://drive.google.com/file/d/16q3IpnFxWT0QMBXYgWWDhDAKA4_9xAO1/view?usp=sharing'},
-            {image:devOps,name:'DevOps Training', link:'https://drive.google.com/file/d/1FOYHkCWMG4YOwstLntKDkmAHLClRR5SW/view?usp=sharing'}
+            {image:problemSolving,name:'Problem Solving'},
+            {image:Angular,name:'Angular Training'},
+            {image:nptel,name:'NPTEL Training'},
+            {image:python,name:'Python(Basic)'},
+            {image:cpp,name:'C & CPP'},
+            {image:smartIndia,name:'Smart India Hackathon'},
+            {image:java,name:'Java'},
+            {image:tcsData,name:'Data Warehouse'},
+            {image:react,name:'React Training'},
+            {image:flask,name:'Python Flask'},
+            {image:rest,name:'Rest APIs'},
+            {image:devOps,name:'DevOps Training'}
         ]
     },
     About:{
         AboutTitle:'About Me',
-        AboutMe1Sec:`Hi! My name is Murtaza Khachrodwala.`,
-        AboutMe2Sec:`About to go...`,
+        AboutMe1Sec:`Hi Aliens! I am Murtaza Khachrodwala. I am a Software Engineer, Tech enthusiast, always keen to take new challenges that makes my skills strong and always keep me motivated towards my goal. My objective is to achieve high career growth through a continuous learning process, keeping myself dynamic, visionary and
+        competitive with the changing scenario of the world.`,
+        AboutMe2Sec:`I have completed my graduation with an honours degree in the field of Information Technology. After graduation, I had done several Internships and Tech trainings as well that helped me alot to stand firm in this corporate world. Currently, I am working as a System Engineer in a renowned organization driven by technology.`,
         ButtonName:'Resume',
         ButtonIconFontAwesome:'fas fa-download mr-2',
         ButtonSite:'https://drive.google.com/file/d/1TnwnY2CeMUVttXSE0atMsd6j_vzjFTFi/view?usp=sharing'
@@ -75,10 +76,11 @@ export const configuration = {
     Footer:{
         section2:{
             title:'Around the Web',
-            facebook:'https://www.facebook.com/murtaza.khachrod',
+            hackerrank:'https://www.hackerrank.com/murtaza_khachrod',
             twitter:'https://twitter.com/Murtaza_kh53',
             linkedin:'https://in.linkedin.com/in/murtaza-khachrodwala',
-            github:'https://github.com/murtaza-repo'
+            github:'https://github.com/murtaza-repo',
+            dev:'https://dev.to/murtaza_k'
         }
     }
 }
