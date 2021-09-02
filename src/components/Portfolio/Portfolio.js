@@ -26,7 +26,14 @@ const Portfolio = ({portfolioData,detailItem,id}) => {
     }
 
     const toggleHandler = () => {
-        setMore(!isMore);
+        setMore((prevState) => {
+            return !prevState;
+        });
+
+        if(isMore === true){
+            const element = document.querySelector('#'+id);
+            element.scrollIntoView({ block: 'start',  behavior: 'auto' });
+        }
     }
 
     const details = Item =>  {
@@ -51,9 +58,9 @@ const Portfolio = ({portfolioData,detailItem,id}) => {
                     }
                 </div>
                 <div className="text-center mb-3">
-                    <a className="text-decoration-none" color="grey" href={'#'+id} onClick={toggleHandler}>
+                    <button className="text-decoration-none btn btn-outline-info" color="grey" onClick={toggleHandler}>
                         View {isMore ? 'Less' : 'More'} {isMore ? <i className="fas fa-angle-up"></i> : <i className="fas fa-angle-down"></i>}
-                    </a>
+                    </button>
                 </div>
             </div>
         </section>

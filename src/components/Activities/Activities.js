@@ -27,7 +27,14 @@ const Activities = ({ActivitiesData,detailItem,id}) => {
     }
 
     const toggleHandler = () => {
-        setMore(!isMore);
+        setMore((prevState) => {
+            return !prevState;
+        });
+
+        if(isMore === true){
+            const element = document.querySelector('#'+id);
+            element.scrollIntoView({ block: 'start',  behavior: 'auto' });
+        }
     }
 
     const details = Item =>  {
