@@ -1,40 +1,38 @@
-import React, {useState} from 'react'
+import React from 'react';
 import {connect} from 'react-redux';
 import PortfolioItem from './PortfolioItem';
 import { openModel } from '../../store/Actions/ModelActions';
 const Portfolio = ({portfolioData,detailItem,id}) => {
     const {PortfolioItems,PortfolioTitle} = portfolioData;
-    const MAX_ITEMS = 3;
-    const [isMore, setMore] = useState(false);
+    // const MAX_ITEMS = 3;
+    // const [isMore, setMore] = useState(false);
 
-    const toggleData = () =>{
-        if(isMore){
-            return (
-                PortfolioItems.map((Item,Index) => {
-                    return <PortfolioItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
-                })
-            )
-        }
-        else{
+    // const toggleData = () =>{
+    //     if(isMore){
+    //         return (
+                
+    //         )
+    //     }
+    //     else{
 
-            return (
-                PortfolioItems.slice(0, MAX_ITEMS).map((Item,Index) => {
-                    return <PortfolioItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
-                })
-            )
-        }
-    }
+    //         return (
+    //             PortfolioItems.slice(0, MAX_ITEMS).map((Item,Index) => {
+    //                 return <PortfolioItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
+    //             })
+    //         )
+    //     }
+    // }
 
-    const toggleHandler = () => {
-        setMore((prevState) => {
-            return !prevState;
-        });
+    // const toggleHandler = () => {
+    //     setMore((prevState) => {
+    //         return !prevState;
+    //     });
 
-        if(isMore === true){
-            const element = document.querySelector('#'+id);
-            element.scrollIntoView({ block: 'start',  behavior: 'auto' });
-        }
-    }
+    //     if(isMore === true){
+    //         const element = document.querySelector('#'+id);
+    //         element.scrollIntoView({ block: 'start',  behavior: 'auto' });
+    //     }
+    // }
 
     const details = Item =>  {
         const body = document.getElementsByTagName('body')[0];
@@ -44,7 +42,7 @@ const Portfolio = ({portfolioData,detailItem,id}) => {
     return (
             <section className="page-section portfolio" id={id}>
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">{PortfolioTitle}</h2>
+                <h2 id="pageSectionHeading" className="page-section-heading text-center text-uppercase text-secondary mb-0">{PortfolioTitle}</h2>
                 <div className="divider-custom">
                     <div className="divider-custom-line"></div>
                     <div className="divider-custom-icon">
@@ -54,14 +52,16 @@ const Portfolio = ({portfolioData,detailItem,id}) => {
                 </div>
                 <div className="row">
                     {
-                        toggleData()
+                        PortfolioItems.map((Item,Index) => {
+                            return <PortfolioItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
+                        })
                     }
                 </div>
-                <div className="text-center mb-3">
+                {/* <div className="text-center mb-3">
                     <button className="text-decoration-none btn btn-outline-info" color="grey" onClick={toggleHandler}>
                         View {isMore ? 'Less' : 'More'} {isMore ? <i className="fas fa-angle-up"></i> : <i className="fas fa-angle-down"></i>}
                     </button>
-                </div>
+                </div> */}
             </div>
         </section>
     )

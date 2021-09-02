@@ -10820,8 +10820,9 @@ a.text-dark:hover {
 }
 
 .masthead {
-    padding-top: calc(10rem + 180px);
-    padding-bottom: 5rem;
+    height: auto;
+    padding-top: calc(13rem);
+    padding-bottom: calc(3rem);
 }
 
 .masthead .masthead-heading {
@@ -10839,7 +10840,7 @@ a.text-dark:hover {
 
 @media (min-width:992px) {
     .masthead {
-        padding-top: calc(15rem + 130px);
+        padding-top: calc(18rem);
     }
 
     .masthead .masthead-heading {

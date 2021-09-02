@@ -1,41 +1,39 @@
-import React, {useState} from 'react'
+import React from 'react';
 import {connect} from 'react-redux';
 import ActivitiesItem from './ActivitiesItem';
 import { openModel } from '../../store/Actions/ModelActions';
 
 const Activities = ({ActivitiesData,detailItem,id}) => {
     const {ActivitiesItems,ActivitiesTitle} = ActivitiesData;
-    const MAX_ITEMS = 3;
-    const [isMore, setMore] = useState(false);
+    // const MAX_ITEMS = 3;
+    // const [isMore, setMore] = useState(false);
 
-    const toggleData = () =>{
-        if(isMore){
-            return (
-                ActivitiesItems.map((Item,Index) => {
-                    return <ActivitiesItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
-                })
-            )
-        }
-        else{
+    // const toggleData = () =>{
+    //     if(isMore){
+    //         return (
+                
+    //         )
+    //     }
+    //     else{
 
-            return (
-                ActivitiesItems.slice(0, MAX_ITEMS).map((Item,Index) => {
-                    return <ActivitiesItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
-                })
-            )
-        }
-    }
+    //         return (
+    //             ActivitiesItems.slice(0, MAX_ITEMS).map((Item,Index) => {
+    //                 return <ActivitiesItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
+    //             })
+    //         )
+    //     }
+    // }
 
-    const toggleHandler = () => {
-        setMore((prevState) => {
-            return !prevState;
-        });
+    // const toggleHandler = () => {
+    //     setMore((prevState) => {
+    //         return !prevState;
+    //     });
 
-        if(isMore === true){
-            const element = document.querySelector('#'+id);
-            element.scrollIntoView({ block: 'start',  behavior: 'auto' });
-        }
-    }
+    //     if(isMore === true){
+    //         const element = document.querySelector('#'+id);
+    //         element.scrollIntoView({ block: 'start',  behavior: 'auto' });
+    //     }
+    // }
 
     const details = Item =>  {
         const body = document.getElementsByTagName('body')[0];
@@ -54,13 +52,17 @@ const Activities = ({ActivitiesData,detailItem,id}) => {
                     <div className="divider-custom-line"></div>
                 </div>
                 <div className="row">
-                    {toggleData()}
+                    {
+                        ActivitiesItems.map((Item,Index) => {
+                            return <ActivitiesItem detailItem={() => details(Item)} key={Index} imgSrc={Item.image} />
+                        })
+                    }
                 </div>
-                <div className="text-center mb-3" id="viewBtn">
+                {/* <div className="text-center mb-3" id="viewBtn">
                     <button className="text-decoration-none btn btn-outline-info" color="grey" onClick={toggleHandler}>
                         View {isMore ? 'Less' : 'More'} {isMore ? <i className="fas fa-angle-up"></i> : <i className="fas fa-angle-down"></i>}
                     </button>
-                </div>
+                </div> */}
             </div>
         </section>
     )
