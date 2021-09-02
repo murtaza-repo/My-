@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const About = ({aboutData,id}) => {
     const {AboutTitle,AboutMe1Sec,AboutMe2Sec,ButtonName,ButtonIconFontAwesome,ButtonSite} = aboutData;

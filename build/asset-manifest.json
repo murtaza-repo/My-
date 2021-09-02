@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdf3faf7.chunk.css",
-    "main.js": "/static/js/main.036903be.chunk.js",
-    "main.js.map": "/static/js/main.036903be.chunk.js.map",
+    "main.css": "/static/css/main.9d640f30.chunk.css",
+    "main.js": "/static/js/main.40fde884.chunk.js",
+    "main.js.map": "/static/js/main.40fde884.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9481bf06.js",
     "runtime-main.js.map": "/static/js/runtime-main.9481bf06.js.map",
-    "static/js/2.f8151794.chunk.js": "/static/js/2.f8151794.chunk.js",
-    "static/js/2.f8151794.chunk.js.map": "/static/js/2.f8151794.chunk.js.map",
+    "static/js/2.5c2c4a14.chunk.js": "/static/js/2.5c2c4a14.chunk.js",
+    "static/js/2.5c2c4a14.chunk.js.map": "/static/js/2.5c2c4a14.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fdf3faf7.chunk.css.map": "/static/css/main.fdf3faf7.chunk.css.map",
-    "static/js/2.f8151794.chunk.js.LICENSE.txt": "/static/js/2.f8151794.chunk.js.LICENSE.txt",
+    "static/css/main.9d640f30.chunk.css.map": "/static/css/main.9d640f30.chunk.css.map",
+    "static/js/2.5c2c4a14.chunk.js.LICENSE.txt": "/static/js/2.5c2c4a14.chunk.js.LICENSE.txt",
     "static/media/Angular.cfa7f615.png": "/static/media/Angular.cfa7f615.png",
     "static/media/Collegify.82d46552.png": "/static/media/Collegify.82d46552.png",
     "static/media/Java.516830dd.png": "/static/media/Java.516830dd.png",
-    "static/media/freelancer.min.css": "/static/media/Murtaza.e8ca8864.png",
     "static/media/NPTEL.5a1fcb15.jpg": "/static/media/NPTEL.5a1fcb15.jpg",
     "static/media/ProblemSolving.9fcb3756.png": "/static/media/ProblemSolving.9fcb3756.png",
     "static/media/PythonHR.639ead78.png": "/static/media/PythonHR.639ead78.png",
@@ -27,6 +26,7 @@
     "static/media/all.min.css": "/static/media/fa-solid-900.ce9aef17.svg",
     "static/media/hms.a7527531.png": "/static/media/hms.a7527531.png",
     "static/media/marioPlan.62925cd8.png": "/static/media/marioPlan.62925cd8.png",
+    "static/media/profile.d36bd356.jpg": "/static/media/profile.d36bd356.jpg",
     "static/media/rajmachinery.456e3304.png": "/static/media/rajmachinery.456e3304.png",
     "static/media/recipeBook.4d9d97a3.png": "/static/media/recipeBook.4d9d97a3.png",
     "static/media/tcsData.6bf0e34d.png": "/static/media/tcsData.6bf0e34d.png",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9481bf06.js",
-    "static/js/2.f8151794.chunk.js",
-    "static/css/main.fdf3faf7.chunk.css",
-    "static/js/main.036903be.chunk.js"
+    "static/js/2.5c2c4a14.chunk.js",
+    "static/css/main.9d640f30.chunk.css",
+    "static/js/main.40fde884.chunk.js"
   ]
 }

@@ -6729,8 +6729,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: rgb(20, 110, 245) !important;
-    background-image: url('../../img/Murtaza.png');
+    background-color: rgb(20, 110, 245, 0.8) !important;
+    background-image: url('../../img/background.gif');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
@@ -10820,9 +10820,8 @@ a.text-dark:hover {
 }
 
 .masthead {
-    height: auto;
-    padding-top: calc(13rem);
-    padding-bottom: calc(3rem);
+    padding-top: calc(10rem);
+    padding-bottom: calc(10rem);
 }
 
 .masthead .masthead-heading {
@@ -10840,7 +10839,7 @@ a.text-dark:hover {
 
 @media (min-width:992px) {
     .masthead {
-        padding-top: calc(18rem);
+        padding-bottom: calc(7rem);
     }
 
     .masthead .masthead-heading {
@@ -10971,4 +10970,22 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
     background-color: #1a252f
+}
+
+.profileImageDiv{
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+}
+
+.profileImage{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
 }
