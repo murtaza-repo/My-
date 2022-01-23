@@ -71,7 +71,7 @@ export const configuration = {
         AboutMe2Sec:`I have completed my graduation with an honours degree in the field of Information Technology. After graduation, I had done several Internships and Tech trainings as well that helped me alot to stand firm in this corporate world. Currently, I am working as a System Engineer in a renowned organization driven by technology.`,
         ButtonName:'Resume',
         ButtonIconFontAwesome:'fas fa-download mr-2',
-        ButtonSite:'https://drive.google.com/file/d/1TnwnY2CeMUVttXSE0atMsd6j_vzjFTFi/view?usp=sharing'
+        ButtonSite:'https://firebasestorage.googleapis.com/v0/b/murtaza-k.appspot.com/o/Murtaza_Resume_2022.pdf?alt=media&token=984bb9e0-8bb7-46aa-a399-38d1ad0e32c2'
     },
     Footer:{
         section2:{
