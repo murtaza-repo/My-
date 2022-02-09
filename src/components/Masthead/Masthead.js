@@ -7,7 +7,7 @@ const Masthead = ({ mastData }) => {
   const { MastheadTitle, Labels } = mastData;
   return (
     <header
-      className="masthead bg-primary text-white text-center"
+      className="masthead bg-head text-center"
       id="page-top"
     >
       <div className="container align-items-center flex-column">

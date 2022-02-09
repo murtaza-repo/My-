@@ -69,7 +69,7 @@ export const configuration = {
         AboutMe1Sec:`Hi Aliens! I am Murtaza Khachrodwala. I am a Software Engineer, Tech enthusiast, always keen to take new challenges that makes my skills strong and always keep me motivated towards my goal. My objective is to achieve high career growth through a continuous learning process, keeping myself dynamic, visionary and
         competitive with the changing scenario of the world.`,
         AboutMe2Sec:`I have completed my graduation with an honours degree in the field of Information Technology. After graduation, I had done several Internships and Tech trainings as well that helped me alot to stand firm in this corporate world. Currently, I am working as a System Engineer in a renowned organization driven by technology.`,
-        ButtonName:'Resume',
+        ButtonName:'Download CV',
         ButtonIconFontAwesome:'fas fa-download mr-2',
         ButtonSite:'https://firebasestorage.googleapis.com/v0/b/murtaza-k.appspot.com/o/Murtaza_Resume_2022.pdf?alt=media&token=984bb9e0-8bb7-46aa-a399-38d1ad0e32c2'
     },

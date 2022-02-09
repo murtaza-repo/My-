@@ -9,7 +9,7 @@ const Navbar = ({navData}) => {
             <div className="container">
                 <a className="navbar-brand js-scroll-trigger" href="#page-top">{NavbarTitle}</a>
                 <button
-                    className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
                     type="button"
                     data-toggle="collapse"
                     data-target="#navbarResponsive"
