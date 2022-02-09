@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bd7d069e.chunk.css",
-    "main.js": "/static/js/main.48c05a8c.chunk.js",
-    "main.js.map": "/static/js/main.48c05a8c.chunk.js.map",
+    "main.js": "/static/js/main.384aeea4.chunk.js",
+    "main.js.map": "/static/js/main.384aeea4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9481bf06.js",
     "runtime-main.js.map": "/static/js/runtime-main.9481bf06.js.map",
     "static/js/2.f8151794.chunk.js": "/static/js/2.f8151794.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/all.min.css": "/static/media/fa-solid-900.ce9aef17.svg",
     "static/media/hms.a7527531.png": "/static/media/hms.a7527531.png",
     "static/media/marioPlan.62925cd8.png": "/static/media/marioPlan.62925cd8.png",
-    "static/media/profile.d36bd356.jpg": "/static/media/profile.d36bd356.jpg",
+    "static/media/profile.c5c26fa9.jpg": "/static/media/profile.c5c26fa9.jpg",
     "static/media/rajmachinery.456e3304.png": "/static/media/rajmachinery.456e3304.png",
     "static/media/recipeBook.4d9d97a3.png": "/static/media/recipeBook.4d9d97a3.png",
     "static/media/tcsData.6bf0e34d.png": "/static/media/tcsData.6bf0e34d.png",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.9481bf06.js",
     "static/js/2.f8151794.chunk.js",
     "static/css/main.bd7d069e.chunk.css",
-    "static/js/main.48c05a8c.chunk.js"
+    "static/js/main.384aeea4.chunk.js"
   ]
 }
