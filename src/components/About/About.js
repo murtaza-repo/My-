@@ -14,15 +14,15 @@ const About = ({aboutData,id}) => {
                     <div className="divider-custom-line about"></div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-5 ml-auto about-bg">
+                    <div className="col-lg-5 col-10 m-auto about-bg">
                         <p className="lead">
                           {
                             AboutMe1Sec
                           }
                         </p>
                     </div>
-                    <div className='col-1'></div>
-                    <div className="col-lg-5 mr-auto about-bg">
+                    <div className='col-lg-1'></div>
+                    <div className="col-lg-5 col-10 m-auto about-bg">
                         <p className="lead">
                           {
                             AboutMe2Sec
