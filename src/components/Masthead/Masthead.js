@@ -1,7 +1,7 @@
 import React from "react";
 import profile from '../../img/profile.jpg';
 import ReactTypingEffect from "react-typing-effect";
-// import ParticlesBg from "particles-bg";
+import ParticlesBg from "particles-bg";
 
 const Masthead = ({ mastData }) => {
   const { MastheadTitle, Labels } = mastData;
@@ -12,13 +12,13 @@ const Masthead = ({ mastData }) => {
     >
       <div className="container align-items-center flex-column">
         <div className="row">
-          <div className="col-md-6 mb-3 text-center">
+          <div className="col-md-6 mb-5 text-center">
               <div className="profileImageDiv">
                   <img src={profile} className="profileImage" alt="img" />
               </div>
             {/* <ReactRoundedImage image={profile} imageWidth="200" imageHeight="200" roundedColor="white" roundedSize="10"/> */}
           </div>
-          <div className="col-md-6 mt-5">
+          <div className="col-md-6">
             <div className="masthead-subheading font-weight-light mb-0 text-capitalize">
               <h1>{MastheadTitle}</h1>
             </div>
@@ -41,7 +41,7 @@ const Masthead = ({ mastData }) => {
           </div>
         </div>
       </div>
-      {/* <ParticlesBg type="cobweb" bg={true}/> */}
+      <ParticlesBg type="circle" bg={true}/>
     </header>
   );
 };
