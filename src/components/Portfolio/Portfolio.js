@@ -37,14 +37,18 @@ const Portfolio = ({ portfolioData, detailItem, id }) => {
             infinite={true}
           >
             {PortfolioItems.map((item, index) => (
-              <img
-                style={{ width: "100%" }}
-                className="sliderimg"
-                src={Object.values(item)[0]}
-                alt={`pic-${index}`}
-                key={index}
-                onClick={() => details(item)}
-              ></img>
+              <div className="img-container" onClick={() => details(item)}>
+                <img
+                  style={{ width: "100%" }}
+                  className="sliderimg image"
+                  src={Object.values(item)[0]}
+                  alt={`pic-${index}`}
+                  key={index}
+                ></img>
+                <div class="middle">
+                  <div class="text"><i className="fa fa-eye"></i>&nbsp; View</div>
+                </div>
+              </div>
             ))}
           </AliceCarousel>
         </div>

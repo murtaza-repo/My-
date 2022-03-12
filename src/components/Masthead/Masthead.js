@@ -41,7 +41,7 @@ const Masthead = ({ mastData }) => {
           </div>
         </div>
       </div>
-      <ParticlesBg type="circle" bg={true}/>
+      <ParticlesBg type="cobweb" bg={true}/>
     </header>
   );
 };

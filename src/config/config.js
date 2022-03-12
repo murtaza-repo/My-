@@ -66,7 +66,7 @@ export const configuration = {
     },
     About:{
         AboutTitle:'About Me',
-        AboutMe1Sec:`Hello! My name is Murtaza Khachrodwala. I'm Information Engineer, Tech enthusiast, always keen to take new challenges that makes my skills strong and always keep me motivated towards my goal. My objective is to achieve high career growth through a continuous learning process, keeping myself dynamic, visionary and
+        AboutMe1Sec:`Hello! My name is Murtaza Khachrodwala. I'm Information Technology Engineer, Tech enthusiast, always keen to take new challenges that makes my skills strong and always keep me motivated towards my goal. My objective is to achieve high career growth through a continuous learning process, keeping myself dynamic, visionary and
         competitive with the changing scenario of the world.`,
         AboutMe2Sec:`My specializations is in Web Development, Android App Development, Fullstack Development(MERN Stack), however, always keen to learn beyond this keeping myself dynamic and adaptive. After graduation from RGPV University, I've been actively involved in the development projects where I've developed projects for small businesses, corporations and more.`,
         ButtonName:'Download CV',
