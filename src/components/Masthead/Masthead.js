@@ -1,7 +1,6 @@
 import React from "react";
 import profile from '../../img/profile.jpg';
 import ReactTypingEffect from "react-typing-effect";
-import ParticlesBg from "particles-bg";
 
 const Masthead = ({ mastData }) => {
   const { MastheadTitle, Labels } = mastData;
@@ -41,7 +40,6 @@ const Masthead = ({ mastData }) => {
           </div>
         </div>
       </div>
-      <ParticlesBg type="cobweb" bg={true}/>
     </header>
   );
 };

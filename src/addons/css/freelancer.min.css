@@ -428,7 +428,7 @@ h6 {
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 300
 }
 
@@ -10680,6 +10680,7 @@ a.text-dark:hover {
 
 .page-section {
     padding: 2rem 0;
+    
 }
 
 .page-section .page-section-heading {
@@ -10707,6 +10708,7 @@ a.text-dark:hover {
     opacity: 1;
 }
 
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -10728,7 +10730,7 @@ a.text-dark:hover {
   }
   
   .text {
-    background-color: rgb(20, 110, 245);
+    background-color: rgba(20, 110, 245, 0.8);
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -10918,7 +10920,8 @@ a.text-dark:hover {
 }
 
 .portfolio {
-    margin-bottom: -30px
+    margin-bottom: -30px;
+    height: 110vh;
 }
 
 .portfolio .portfolio-item {

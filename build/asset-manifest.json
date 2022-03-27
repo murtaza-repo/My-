@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb00301d.chunk.css",
-    "main.js": "/static/js/main.a100a6a4.chunk.js",
-    "main.js.map": "/static/js/main.a100a6a4.chunk.js.map",
+    "main.css": "/static/css/main.91efa0dd.chunk.css",
+    "main.js": "/static/js/main.e9e87c70.chunk.js",
+    "main.js.map": "/static/js/main.e9e87c70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9481bf06.js",
     "runtime-main.js.map": "/static/js/runtime-main.9481bf06.js.map",
     "static/css/2.af3ab7ac.chunk.css": "/static/css/2.af3ab7ac.chunk.css",
-    "static/js/2.eb8cebeb.chunk.js": "/static/js/2.eb8cebeb.chunk.js",
-    "static/js/2.eb8cebeb.chunk.js.map": "/static/js/2.eb8cebeb.chunk.js.map",
+    "static/js/2.4ae78a35.chunk.js": "/static/js/2.4ae78a35.chunk.js",
+    "static/js/2.4ae78a35.chunk.js.map": "/static/js/2.4ae78a35.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.af3ab7ac.chunk.css.map": "/static/css/2.af3ab7ac.chunk.css.map",
-    "static/css/main.bb00301d.chunk.css.map": "/static/css/main.bb00301d.chunk.css.map",
-    "static/js/2.eb8cebeb.chunk.js.LICENSE.txt": "/static/js/2.eb8cebeb.chunk.js.LICENSE.txt",
+    "static/css/main.91efa0dd.chunk.css.map": "/static/css/main.91efa0dd.chunk.css.map",
+    "static/js/2.4ae78a35.chunk.js.LICENSE.txt": "/static/js/2.4ae78a35.chunk.js.LICENSE.txt",
     "static/media/Angular.cfa7f615.png": "/static/media/Angular.cfa7f615.png",
     "static/media/Collegify.82d46552.png": "/static/media/Collegify.82d46552.png",
     "static/media/Java.516830dd.png": "/static/media/Java.516830dd.png",
@@ -22,7 +22,7 @@
     "static/media/React.a9c30303.png": "/static/media/React.a9c30303.png",
     "static/media/Rest.0d8b11d8.png": "/static/media/Rest.0d8b11d8.png",
     "static/media/SIH.1812df54.png": "/static/media/SIH.1812df54.png",
-    "static/media/burgerBuilder.ccd5d14c.png": "/static/media/burgerBuilder.ccd5d14c.png",
+    "static/media/burgerBuilder.3219212a.png": "/static/media/burgerBuilder.3219212a.png",
     "static/media/comeNplay.1084bdb7.png": "/static/media/comeNplay.1084bdb7.png",
     "static/media/como.59d42ba6.png": "/static/media/como.59d42ba6.png",
     "static/media/cpp.9e879019.png": "/static/media/cpp.9e879019.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.9481bf06.js",
     "static/css/2.af3ab7ac.chunk.css",
-    "static/js/2.eb8cebeb.chunk.js",
-    "static/css/main.bb00301d.chunk.css",
-    "static/js/main.a100a6a4.chunk.js"
+    "static/js/2.4ae78a35.chunk.js",
+    "static/css/main.91efa0dd.chunk.css",
+    "static/js/main.e9e87c70.chunk.js"
   ]
 }

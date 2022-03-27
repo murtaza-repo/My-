@@ -12,6 +12,13 @@ const Portfolio = ({ portfolioData, detailItem, id }) => {
     detailItem(Item);
   };
 
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    1024: { items: 3 },
+  };
+
+
   return (
     <section className="page-section portfolio" id={id}>
       <div className="container">
@@ -28,25 +35,25 @@ const Portfolio = ({ portfolioData, detailItem, id }) => {
           </div>
           <div className="divider-custom-line"></div>
         </div>
-        <div className="row" style={{ "maxWidth": "720px", margin: "auto" }}>
+        <div className="row" >
           <AliceCarousel
             autoPlay
             keyboardNavigation
             autoPlayInterval={3000}
             disableButtonsControls
             infinite={true}
+            responsive={responsive}
           >
             {PortfolioItems.map((item, index) => (
-              <div className="img-container" onClick={() => details(item)}>
+              <div className="img-container" onClick={() => details(item)} key={index}>
                 <img
                   style={{ width: "100%" }}
                   className="sliderimg image"
                   src={Object.values(item)[0]}
                   alt={`pic-${index}`}
-                  key={index}
                 ></img>
-                <div class="middle">
-                  <div class="text"><i className="fa fa-eye"></i>&nbsp; View</div>
+                <div className="middle">
+                  <div className="text"><i className="fa fa-eye"></i>&nbsp; View</div>
                 </div>
               </div>
             ))}
