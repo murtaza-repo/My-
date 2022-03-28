@@ -6752,6 +6752,10 @@ a.close.disabled {
     color: #2c3e50;
     text-align: justify;
     border-radius: 20px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 a.bg-primary:focus,
@@ -10922,6 +10926,12 @@ a.text-dark:hover {
 .portfolio {
     margin-bottom: -30px;
     height: 110vh;
+}
+
+@media (max-width:991px) {
+    .portfolio {
+        height: auto;
+    }
 }
 
 .portfolio .portfolio-item {
