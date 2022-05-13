@@ -6750,12 +6750,8 @@ a.close.disabled {
     background: rgba(255,255,355,0.8);
     padding: 10px;
     color: #2c3e50;
-    text-align: justify;
     border-radius: 20px;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    
 }
 
 a.bg-primary:focus,
